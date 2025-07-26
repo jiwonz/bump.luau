@@ -1,0 +1,26 @@
+name = "jiwonz/bump"
+version = "3.0.0"
+description = "A collision detection library for Luau"
+authors = ["kikito (https://github.com/kikito)", "jiwonz <me@jiwonz.kr>"]
+repository = "https://github.com/jiwonz/bump.luau"
+license = "MIT"
+includes = [
+	"bump.luau",
+	"README",
+	"pesde.toml",
+	"README.md",
+]
+
+[target]
+environment = "lune"
+lib = "bump.luau"
+
+[indices]
+default = "https://github.com/pesde-pkg/index"
+
+[engines]
+lune = "^0.8.9"
+pesde = "^0.7.0-rc.7"
+
+[dev_dependencies]
+multitarget = { name = "jiwonz/multitarget", version = "^0.4.0-rc.29" }
