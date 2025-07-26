@@ -10,6 +10,7 @@ includes = [
 	"pesde.toml",
 	"README.md",
 ]
+private = true
 
 [target]
 environment = "lune"
